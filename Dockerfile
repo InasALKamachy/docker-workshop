@@ -7,3 +7,4 @@ WORKDIR /app
 COPY pipeline/pipeline.py .
 
 ENTRYPOINT ["python", "pipeline.py"]
+
